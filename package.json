@@ -1,0 +1,38 @@
+{
+  "name": "@achivx/obscenity",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "[ \"$NODE_ENV\" = \"production\" ] && exit; husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACHIVX-COM/obscenity.git"
+  },
+  "author": "ACHIVX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ACHIVX-COM/obscenity/issues"
+  },
+  "homepage": "https://github.com/ACHIVX-COM/obscenity#readme",
+  "description": "",
+  "workspaces": [
+    "packages/obscenity"
+  ],
+  "lint-staged": {
+    "*.{yaml,json}": "prettier --write",
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.0",
+    "eslint": "^9.11.0",
+    "eslint-plugin-jest": "^28.8.3",
+    "husky": "^9.1.6",
+    "jest": "^29.7.0",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3"
+  }
+}

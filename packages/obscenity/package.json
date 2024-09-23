@@ -1,0 +1,20 @@
+{
+  "name": "@achivx/obscenity",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "prepare": "cp ../../dictionaries/regex/* ./src/regex/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACHIVX-COM/obscenity.git"
+  },
+  "author": "ACHIVX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ACHIVX-COM/obscenity/issues"
+  },
+  "homepage": "https://github.com/ACHIVX-COM/obscenity#readme",
+  "description": ""
+}

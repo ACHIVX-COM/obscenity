@@ -1,0 +1,12 @@
+{
+  "dictionaries": {
+    "de": ["parsed/de-LDNOOBW.json"],
+    "en": ["own/en.json", "parsed/en-LDNOOBW.json"],
+    "es": ["parsed/es-LDNOOBW.json"],
+    "fr": ["parsed/fr-LDNOOBW.json"],
+    "ja": ["parsed/ja-LDNOOBW.json"],
+    "ko": ["parsed/ko-LDNOOBW.json"],
+    "ru": ["own/ru.json", "parsed/ru-LDNOOBW.json"]
+  },
+  "languages": ["all", "en", "ru", "de", "fr", "es", "ja", "ko"]
+}
