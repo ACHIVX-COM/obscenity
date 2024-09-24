@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "main": "src/index.js",
   "scripts": {
-    "prepare": "cp ../../dictionaries/regex/* ./src/regex/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,5 @@
     "url": "https://github.com/ACHIVX-COM/obscenity/issues"
   },
   "homepage": "https://github.com/ACHIVX-COM/obscenity#readme",
-  "description": ""
+  "description": "Obscene language detector"
 }

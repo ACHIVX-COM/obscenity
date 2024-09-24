@@ -1,7 +1,6 @@
 {
   "ja-all": ["[a-zA-Z0-9]"],
-  "ru-all": ["[a-zA-Z0-9]", "мент"],
-  "ru-ru": ["мент"],
+  "ru-all": ["[a-zA-Z0-9]"],
   "en-all": [
     "escort",
     "tit",
