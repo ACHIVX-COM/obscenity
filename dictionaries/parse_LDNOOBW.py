@@ -37,7 +37,7 @@ if __name__ == '__main__':
             obj = {'language': lang, 'words': words}
             fn = 'parsed/{0}-LDNOOBW.json'.format(lang)
             with open(path.join(DICTS_DIR, fn), 'w') as f:
-                json.dump(obj, f)
+                json.dump(obj, f, ensure_ascii=False, indent=2)
                 f.write('\n')
             dict_list[lang] = dict_list.get(lang, [])
             dict_list[lang].append(fn)
